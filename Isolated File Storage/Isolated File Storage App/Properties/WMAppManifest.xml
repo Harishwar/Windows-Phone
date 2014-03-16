@@ -2,7 +2,7 @@
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
   <DefaultLanguage xmlns="" code="en-US" />
   <App xmlns="" ProductID="{74b383ea-52dd-4e39-b1bc-eacf2950e60d}" Title="Isolated File Storage App" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Harishwar" Description="Using Windows Isolated Storage interface, Save details as part of the file system." Publisher="Isolated_File_Storage_App" PublisherID="{580f17ba-1884-46fe-ba41-284fce6769c6}">
-    <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
+    <IconPath IsRelative="true" IsResource="false">Icon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
       <Capability Name="ID_CAP_MEDIALIB_AUDIO" />
@@ -16,9 +16,9 @@
     <Tokens>
       <PrimaryToken TokenID="Isolated_File_Storage_AppToken" TaskName="_default">
         <TemplateFlip>
-          <SmallImageURI IsRelative="true" IsResource="false">wallpaper-2075754.jpg</SmallImageURI>
+          <SmallImageURI IsRelative="true" IsResource="false">TileSmall.png</SmallImageURI>
           <Count>0</Count>
-          <BackgroundImageURI IsRelative="true" IsResource="false">wallpaper-2075754.jpg</BackgroundImageURI>
+          <BackgroundImageURI IsRelative="true" IsResource="false">TileMedium.png</BackgroundImageURI>
           <Title>
           </Title>
           <BackContent>
@@ -27,7 +27,7 @@
           </BackBackgroundImageURI>
           <BackTitle>
           </BackTitle>
-          <LargeBackgroundImageURI IsRelative="true" IsResource="false">wallpaper-2075754.jpg</LargeBackgroundImageURI>
+          <LargeBackgroundImageURI IsRelative="true" IsResource="false">TileLarge.png</LargeBackgroundImageURI>
           <LargeBackContent />
           <LargeBackBackgroundImageURI IsRelative="true" IsResource="false">
           </LargeBackBackgroundImageURI>

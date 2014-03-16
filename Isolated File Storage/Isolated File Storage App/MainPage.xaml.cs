@@ -25,7 +25,7 @@ namespace Isolated_File_Storage_App
 
         private void Button_Click_Save(object sender, RoutedEventArgs e)
         {
-            string text = "Book Name: " + BookName.Text + "\nBook Author: " + BookAuthor.Text + "\nBook Description: " + BookDesc.Text;
+            string text = "Book Name: " + BookName.Text + "\n Book Author: " + BookAuthor.Text + "\n Book Description: " + BookDesc.Text;
             SavedBookName.Text = text;
             using (IsolatedStorageFile wpassignmentfile = IsolatedStorageFile.GetUserStoreForApplication())
             {
